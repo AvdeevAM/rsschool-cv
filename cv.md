@@ -1,4 +1,4 @@
-1. **Alexndr Avdeev**
+1. **Alexandr Avdeev**
 2. e-mail: avdeev.am471@gmail.com
    discord: avdeevam#0231
 3. Will to become software engineer
