@@ -1,6 +1,6 @@
 1. **Alexandr Avdeev**
-2. *e-mail: avdeev.am471@gmail.com
-   *discord: avdeevam#0231
+2. e-mail: avdeev.am471@gmail.com
+   discord: avdeevam#0231
 3. Will to become software engineer
 4. Java Core
 5. *code example*
