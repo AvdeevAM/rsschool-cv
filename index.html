@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<style type="text/css">
+<html lang="en">
+<style lang="css">
 html {
 font-size: 20px;
 font-family: 'Press Start 2P', cursive;
@@ -13,39 +14,80 @@ margin-right: auto;
 width: 30em;
 }
 
-h2 {
+h1 {
 font-size: 26px;
 text-shadow: 1px 1px 1px black;
 text-align: center;
 }
 
+h2 {
+font-size: 20px;
+}
+
+h3 {
+font-size: 24px;
+}
+
+mark {
+background-color: yellow;
+color: black;
+}
+
 </style>
 
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Student portfolio</title>
-</head>
+<meta charset="UTF-8">
+<title>Student portfolio</title>
 <body>
-<h2>The Rolling Scopes student CV</h2>
-<p><img src="images/avatar.jpg" width=150 height=200 alt="Avatar"></p>
-<p>1. Alexandr Avdeev</p>
-<p>2. Contacts:</p>
-<ul>
-    <li>e-mail: avdeev.am471@gmail.com</li>
-    <li>discord: avdeevam#0231</li>
-</ul>
-<p>3. Will to become software engineer</p>
-<p>4. HTML, CSS, Java Core</p>
-<p>5. code example</p>
-<p>6. I don't have working experience in IT sphere.</p>
-<p>7. Belarusian State Economic University</p>
-<dl>
-    <dt>Bachelor degree:</dt>
-    <dd>Finance and credit</dd>
-    <dt>Master degree:</dt>
-    <dd>Finance, taxes and credit</dd>
-</dl>
-<p>8. Upper-intermediate</p>
+<h1>The Rolling Scopes student CV</h1>
+<figure>
+    <img src="images/avatar.jpg" width=150 height=200 alt="Avatar">
+</figure>
+<header>
+    <h3>Alexandr Avdeev</h3>
+</header>
+<section>
+    <h2>1. Contacts:</h2>
+    <ul>
+        <li>e-mail: avdeev.am471@gmail.com</li>
+        <li>discord: avdeevam#0231</li>
+    </ul>
+</section>
+<section>
+<h2>2. Aim</h2>
+<p>Will to become a software engineer</p>
+</section>
+<section>
+    <h2>3. Skills</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Java Core</li>
+    </ul>
+</section>
+<section>
+    <h2>4. Code example</h2>
+    <details><summary>print();</summary>
+        <mark>Hello world!</mark>
+    </details>
+</section>
+<section>
+    <h2>5. Working experience</h2>
+    <p>I don't have working experience in IT sphere.</p>
+</section>
+<section>
+    <h2>6. Education</h2>
+    <p>Belarusian State Economic University</p>
+    <dl>
+        <dt>Bachelor degree:</dt>
+        <dd>Finance and credit</dd>
+        <dt>Master degree:</dt>
+        <dd>Finance, taxes and credit</dd>
+    </dl>
+</section>
+<section>
+    <h2>7. Languages</h2>
+    <p>Russian: native speaker</p>
+    <p>English: upper-intermediate</p>
+</section>
 </body>
 </html>
